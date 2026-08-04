@@ -1,0 +1,17 @@
+{
+  "name": "freelance-bible-chapter01-slides",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev slides.md --open false",
+    "build": "slidev build slides.md",
+    "export:pdf": "slidev export slides.md --format pdf --output chapter01-workstyles.pdf",
+    "export:pptx": "slidev export slides.md --format pptx --output chapter01-workstyles-slidev.pptx",
+    "export:png": "slidev export slides.md --format png --output exports"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.18.0",
+    "@slidev/theme-default": "latest",
+    "playwright-chromium": "latest"
+  }
+}
